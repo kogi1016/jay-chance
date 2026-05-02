@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:title" content="제이가이드 챤스! 🤩">
+<meta property="og:description" content="미국 서부 인생 투어, 제이 팀장이 최저가로 책임집니다!">
+<meta property="og:image" content="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbaXpWk%2FbtsHeWpW0Yj%2FkZJqX8U8u0V0E1Fv5v1e1K%2Fimg.png">
+<meta property="og:url" content="https://kogi1016.github.io/ace-notice/">
+<title>제이가이드 챤스! | ACE TOURS</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;900&family=Noto+Sans+KR:wght@400;700;900&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --teal:#00c9a7;
+    --gold:#FFD700;
+    --accent:#f5a623;
+    --text:#f0f4ff;
+    --sub:#8896b3;
+    --radius:25px;
+  }
+
+  * { margin:0; padding:0; box-sizing:border-box; }
+
+  body {
+    font-family:'Noto Sans KR', sans-serif;
+    color: var(--text);
+    background: linear-gradient(170deg, #04060f 0%, #080c1e 45%, #040608 100%);
+    padding: 30px 20px;
+    min-height: 100vh;
+  }
+
+  /* 기존의 세련된 배경 효과 계승 */
+  body::after {
+    content: ''; position: fixed; bottom: 0; left: 0; width: 100%; height: 2px;
+    background: linear-gradient(90deg, transparent 0%, rgba(255,80,0,0.5) 50%, transparent 100%);
+  }
+
+  .wrap { max-width: 480px; margin: 0 auto; }
+
+  /* 헤더 스타일 */
+  .header { text-align: center; margin-bottom: 30px; border-bottom: 1px solid rgba(255,180,50,0.2); padding-bottom: 20px; }
+  .day-label { font-family: 'Poppins'; font-weight: 700; font-size: 14px; letter-spacing: 3px; color: var(--teal); }
+  .city-title { font-family: 'Poppins'; font-weight: 900; font-size: 42px; text-shadow: 0 0 20px rgba(255,180,0,0.6); margin: 5px 0; }
+
+  /* 메인 카드 */
+  .card {
+    background: rgba(15,20,48,0.85);
+    border: 1px solid rgba(255,200,50,0.2);
+    border-radius: var(--radius);
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  }
+
+  .benefit-item { display: flex; align-items: flex-start; gap: 15px; margin-bottom: 18px; }
+  .icon { font-size: 24px; }
+  .b-title { font-weight: 700; font-size: 16px; color: var(--gold); }
+  .b-detail { font-size: 13px; color: var(--sub); line-height: 1.6; }
+
+  /* 버튼 */
+  .btn {
+    display: block;
+    background: linear-gradient(45deg, #d35400, #f39c12);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 18px;
+    box-shadow: 0 5px 15px rgba(211, 84, 0, 0.4);
+    margin-top: 10px;
+  }
+
+  .footer { text-align: center; font-size: 12px; color: var(--sub); margin-top: 40px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="header">
+    <div class="day-label">SPECIAL BENEFIT</div>
+    <div class="city-title">JAY CHANCE</div>
+    <div style="color:var(--sub); font-size:14px;">에이스투어 제이 가이드의 특별한 선물</div>
+  </div>
+
+  <div class="card">
+    <div class="benefit-item">
+      <div class="icon">💰</div>
+      <div class="info">
+        <div class="b-title">플랫폼 수수료 제로</div>
+        <div class="b-detail">타 예약 사이트보다 무조건 10% 저렴하게!<br>가장 현명한 예약 방법입니다.</div>
+      </div>
+    </div>
+
+    <div class="benefit-item">
+      <div class="icon">🅿️</div>
+      <div class="info">
+        <div class="b-title">네이버 포인트 자동 적립</div>
+        <div class="b-detail">결제 금액의 일부를 네이버 포인트로!<br>다음 여행 준비에 보태세요.</div>
+      </div>
+    </div>
+
+    <div class="benefit-item">
+      <div class="icon">📸</div>
+      <div class="info">
+        <div class="b-title">제이 팀장 전담 케어</div>
+        <div class="b-detail">인생샷 포인트 선점 및 현지 꿀팁 제공!<br>비교 불가능한 프리미엄 가이딩.</div>
+      </div>
+    </div>
+
+    <a href="https://bit.ly/3OgKgLm" class="btn">지금 바로 챤스 사용하기 ➔</a>
+  </div>
+
+  <div class="footer">
+    ACE TOURS | JAY GUIDE<br>
+    © 2026 Ace Tours. All rights reserved.
+  </div>
+</div>
+</body>
+</html>
